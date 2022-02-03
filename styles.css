@@ -1,0 +1,58 @@
+
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: antiquewhite;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 5px solid black;
+    background-color: darkgrey;
+    justify-content: space-between;
+       
+}
+
+.buttonGrid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+button{
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    padding: 20px 10px;
+}
+
+.numKey{
+    background-color: rgb(206, 177, 245);
+}
+
+.operator{
+    background-color: rgb(110, 124, 110);
+}
+
+.btnType1 {
+    background-color: rgb(243, 225, 126);
+}
